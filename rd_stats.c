@@ -27,7 +27,7 @@
 #include <ctype.h>
 #include <sys/types.h>
 #include <sys/stat.h>
-#include <sys/vfs.h>
+//#include <sys/vfs.h>
 #include <unistd.h>
 
 #include "common.h"

@@ -49,6 +49,10 @@ unsigned int hz;
 /* Number of bit shifts to convert pages to kB */
 unsigned int kb_shift;
 
+#ifdef __FreeBSD__
+#include<sys/syslimits.h>
+#endif
+
 /* Type of persistent device names used in sar and iostat */
 char persistent_name_type[MAX_FILE_LEN];
 
